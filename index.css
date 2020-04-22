@@ -19,3 +19,21 @@ header {
   border: 2px solid black;
   border-radius: 10px;
 }
+
+@media screen and (min-width:480px) {
+  body {
+    /*
+    I am not planning on implementing a navbar. 
+    The only change with changing screen widths will be the carousel interaction in the projects section which I have not implemented yet.
+    */
+  }
+}
+
+@media screen and (min-width:800px) {
+  body {
+    /*
+    I am not planning on implementing a navbar. 
+    The only change with changing screen widths will be the carousel interaction in the projects section which I have not implemented yet.
+    */
+  }
+}
