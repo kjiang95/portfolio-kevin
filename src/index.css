@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+
+header {
+  height: 100vh;
+  margin: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.page {
+  height: 100vh;
+  margin: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
