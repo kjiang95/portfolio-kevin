@@ -19,6 +19,10 @@ header {
   align-items: center;
 }
 
+.main {
+  margin: 15px;
+}
+
 .intro {
   font-family: 'Fjalla One', sans-serif;
   font-style: italic;
@@ -30,19 +34,18 @@ header {
   animation: letter-flicker 3s linear infinite;
 }
 
-.headline {
-  display: flex;
-  justify-content: left; 
-  align-items: left;
-  flex-direction: column;
-}
-
 .page {
   height: 100vh;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 50px;
+  margin-right: 50px;
   background-color: #121212;
   color: #FBF7F1;
+  font-size: 12px;
+}
+
+img {
+  display: block;
+  margin-bottom: 30px;
 }
 
 .projects {
@@ -62,7 +65,6 @@ header {
 .blurb {
   text-align: left;
   display: inline-block;
-  margin-left: 20px;
 }
 
 .blurb h3 {
@@ -96,17 +98,18 @@ header {
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
-  width: 450px;
-  height: 450px;
+  width: 300px;
+  height: 300px;
   border-color: #FFFFFF;
   border-width: 3px;
   border-style: solid;
   border-radius: 30px;
   box-shadow: 0px 0px 15px 5px white;
+  padding: 10px;
 }
 
 .quiz-app-project  img {
-  width: 200px;
+  width: 100px;
 }
 
 .contact_info {
@@ -114,6 +117,7 @@ header {
   display: flex;
   justify-content: center;
   position: fixed;
+  padding: 7px;
   top: 0;
   left: 0;
   right: 0;
@@ -273,19 +277,39 @@ box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
 }
 
 @media screen and (min-width:480px) {
-  body {
-    /*
-    I am not planning on implementing a navbar. 
-    The only change with changing screen widths will be the carousel interaction in the projects section which I have not implemented yet.
-    */
+  .page {
+    margin: 80px;
+    font-size: 20px;
+  }
+
+  .quiz-app-project {
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .quiz-app-project  img {
+    width: 100px;
   }
 }
 
 @media screen and (min-width:800px) {
-  body {
-    /*
-    I am not planning on implementing a navbar. 
-    The only change with changing screen widths will be the carousel interaction in the projects section which I have not implemented yet.
-    */
+  .page {
+    margin: 250px;
+    font-size: 20px;
+  }
+
+  .quiz-app-project {
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .quiz-app-project  img {
+    width: 200px;
   }
 }
