@@ -40,7 +40,7 @@ header {
   margin-right: 50px;
   background-color: #121212;
   color: #FBF7F1;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 img {
@@ -97,14 +97,13 @@ img {
   flex-direction: column;
 
   margin-top: 30px;
-  width: 300px;
-  height: 300px;
+  height: 350px;
   border-color: #FFFFFF;
   border-width: 3px;
   border-style: solid;
   border-radius: 30px;
   box-shadow: 0px 0px 15px 5px white;
-  padding: 15px;
+  padding: 20px;
 }
 
 .quiz-app-project  img {
