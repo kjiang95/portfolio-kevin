@@ -74,10 +74,10 @@ img {
 
 .blurb h2 {
   font-size: 40px;
-  background: -webkit-linear-gradient(left, #85D3FF, #5C00CC);
-  background: -o-linear-gradient(right, #85D3FF, #5C00CC);
-  background: -moz-linear-gradient(right, #85D3FF, #5C00CC);
-  background: linear-gradient(to right, #85D3FF, #5C00CC); 
+  background: -webkit-linear-gradient(left, #297373, #5C00CC);
+  background: -o-linear-gradient(right, #297373, #5C00CC);
+  background: -moz-linear-gradient(right, #297373, #5C00CC);
+  background: linear-gradient(to right, #297373, #5C00CC); 
  -webkit-background-clip: text;
  -webkit-text-fill-color: transparent;
 }
