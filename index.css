@@ -97,7 +97,6 @@ img {
   flex-direction: column;
 
   margin-top: 30px;
-  height: 350px;
   border-color: #FFFFFF;
   border-width: 3px;
   border-style: solid;
@@ -123,7 +122,7 @@ img {
 }
 
 a:link, a:visited {
-  background-color: #579FEB;
+  background-color: #1789FC;
   color: white;
   width: 90px;
   border-radius: 20px;
@@ -277,12 +276,11 @@ box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
 @media screen and (min-width:480px) {
   .page {
     margin: 80px;
-    font-size: 20px;
+    font-size: 24px;
   }
 
   .quiz-app-project {
     width: 400px;
-    height: 400px;
     padding: 10px;
     margin-right: auto;
     margin-left: auto;
@@ -296,12 +294,11 @@ box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
 @media screen and (min-width:800px) {
   .page {
     margin: 250px;
-    font-size: 20px;
+    font-size: 24px;
   }
 
   .quiz-app-project {
     width: 500px;
-    height: 500px;
     padding: 20px;
     margin-right: auto;
     margin-left: auto;
