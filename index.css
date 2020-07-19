@@ -27,6 +27,7 @@ header {
   font-family: 'Fjalla One', sans-serif;
   font-style: italic;
   font-size: 120px;
+  padding-top: 40px;
   animation: text-flicker 9s linear infinite;
 }
 
