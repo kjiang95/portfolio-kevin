@@ -7,6 +7,7 @@ body {
   text-align: center;
   font-family: 'Monda', sans-serif;
   background-color: #121212;
+  
 }
 
 header {
@@ -39,6 +40,7 @@ header {
   height: 100vh;
   margin-left: 50px;
   margin-right: 50px;
+  margin-bottom: 100px;
   background-color: #121212;
   color: #FBF7F1;
   font-size: 16px;
@@ -49,10 +51,9 @@ img {
   margin-bottom: 30px;
 }
 
-/* #projects {
-  display: flex;
-  flex-direction: row;
-} */
+#projects {
+  height: 100%;
+}
 
 .profile-pic {
   width: 35vh;
@@ -91,7 +92,7 @@ img {
   font-size: 50px;
 }
 
-.quiz-app-project {
+.project {
   display: flex;
   justify-content: center; 
   align-items: center;
@@ -106,7 +107,7 @@ img {
   padding: 20px;
 }
 
-.quiz-app-project  img {
+.project  img {
   width: 100px;
 }
 
@@ -125,7 +126,7 @@ img {
 a:link, a:visited {
   background-color: #297373;
   color: white;
-  width: 90px;
+  width: 100px;
   border-radius: 20px;
   text-align: center;
   text-decoration: none;
@@ -280,15 +281,19 @@ box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
     font-size: 24px;
   }
 
-  .quiz-app-project {
+  .project {
     width: 400px;
     padding: 10px;
     margin-right: auto;
     margin-left: auto;
   }
 
-  .quiz-app-project  img {
+  .project img {
     width: 100px;
+  }
+
+  a:link {
+    width: 200px
   }
 }
 
@@ -298,14 +303,14 @@ box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
     font-size: 24px;
   }
 
-  .quiz-app-project {
+  .project {
     width: 500px;
     padding: 20px;
     margin-right: auto;
     margin-left: auto;
   }
 
-  .quiz-app-project  img {
+  .project img {
     width: 200px;
   }
 }
